@@ -1,0 +1,36 @@
+Arguments: 
+  /home/manolo/.nvm/versions/node/v12.18.4/bin/node /home/manolo/.nvm/versions/node/v12.18.4/bin/yarn add serveless-offline -D
+
+PATH: 
+  /home/manolo/.zinit/polaris/sbin:/home/manolo/.zinit/polaris/bin:/home/manolo/.nvm/versions/node/v12.18.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/g/laragon/bin/php/php-7.4.10-Win32-VC15-x64:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Java/jdk1.8.0_211/bin:/mnt/c/Users/manoe/AppData/Local/Android/Sdk/emulator:/mnt/c/Users/manoe/AppData/Local/Android/Sdk/tools:/mnt/c/Users/manoe/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/manoe/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/flutter/bin:/mnt/c/Program Files/Sublime Text 3:/mnt/c/Users/manoe/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/wamp64/bin/php/php7.4.9:/mnt/c/composer:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/manoe/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/manoe/AppData/Local/Yarn/config/global/node_modules/.bin:/mnt/c/Users/manoe/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/manoe/AppData/Roaming/npm:/mnt/g/laragon/bin:/mnt/g/laragon/bin/apache/httpd-2.4.35-win64-VC15/bin:/mnt/g/laragon/bin/composer:/mnt/g/laragon/bin/git/bin:/mnt/g/laragon/bin/git/cmd:/mnt/g/laragon/bin/git/mingw64/bin:/mnt/g/laragon/bin/git/usr/bin:/mnt/g/laragon/bin/laragon/utils:/mnt/g/laragon/bin/mysql/mysql-5.7.24-winx64/bin:/mnt/g/laragon/bin/nginx/nginx-1.16.0:/mnt/g/laragon/bin/ngrok:/mnt/g/laragon/bin/nodejs/node-v12:/mnt/g/laragon/bin/notepad++:/mnt/g/laragon/bin/putty:/mnt/g/laragon/bin/redis/redis-x64-3.2.100:/mnt/g/laragon/bin/telnet:/mnt/g/laragon/usr/bin:/mnt/c/Users/manoe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PhpStorm 2020.2.2/bin:/mnt/c/Users/manoe/AppData/Local/Yarn/bin:/mnt/c/Program Files/GPAC:/mnt/c/Users/manoe/AppData/Roaming/Composer/vendor/bin:/home/manolo/Android/Sdk/emulator:/home/manolo/Android/Sdk/tools:/home/manolo/Android/Sdk/tools/bin:/home/manolo/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/serveless-offline: Not found
+      at Request.params.callback [as _callback] (/home/manolo/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/manolo/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/manolo/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/manolo/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
