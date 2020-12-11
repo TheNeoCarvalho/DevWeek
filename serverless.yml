@@ -39,7 +39,7 @@ functions:
 
     events:
       - http:
-          path: /participant
+          path: /secret/{id}/participants
           method: post
           cors: true
   deleteParticipants:
